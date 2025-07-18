@@ -1,0 +1,50 @@
+body {
+  background: #f5f6fa;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.what-is-up {
+  background: white;
+  padding: 2rem 3rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 24px rgba(44, 62, 80, 0.12);
+  text-align: center;
+}
+
+.spinny-cogs {
+  margin-bottom: 1.5rem;
+}
+
+.fa-cog {
+  color: #2c3e50;
+  margin: 0 0.5rem;
+}
+
+.fa-cog.fa-spin {
+  color: #e67e22;
+}
+
+.maintenance {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+a {
+  color: #e67e22;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #cf711c;
+}
